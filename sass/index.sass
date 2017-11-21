@@ -53,21 +53,23 @@
         padding-left: 2.5px
 // 福利
 .fuli
-    // padding-top: 50px
-    padding-bottom: 50px
     @media (min-width: 320px) and (max-width: 999px)
         padding-top: 10px
     .ffll
         @media (min-width: 320px) and (max-width: 999px)
             display: none
-    img
-        max-width: 100%
+    img 
+        // max-width: 100%
         margin: 0 auto
         display: block
+        @media (min-width: 1450px)
+            max-width: 1680px  
+        @media (max-width: 1442px)    
+            max-width: 100%
+
     h2
         text-align: center
         padding-top: 40px
-        padding-bottom: 40px
 .fl
     display: none
     @media (min-width: 320px) and (max-width: 999px)
